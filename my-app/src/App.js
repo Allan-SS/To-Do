@@ -67,15 +67,14 @@ const App = () => {
         <ContainerInputTask>
           <Input
             error={errorTask}
-            placeholder="Tarefas"
+            placeholder="Task"
             onChange={handleTask}
             value={task}
-            // maxLength={30}
           />
           <ContainerError>{errorTask}</ContainerError>
           <Input
             error={errorTime}
-            placeholder="Tempo"
+            placeholder="Time"
             onChange={handleTime}
             value={time}
           />

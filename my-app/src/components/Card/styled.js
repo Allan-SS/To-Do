@@ -34,6 +34,7 @@ export const ContainerTask = styled.div`
   flex-direction: column;
 
   h1 {
+    width: 350px;
     color: ${seconderyColor} !important;
   }
 
@@ -42,7 +43,22 @@ export const ContainerTask = styled.div`
     margin: 0.5rem 0;
     border: 0.063rem solid ${seconderyColor};
   }
+
+  h2 {
+    width: 300px;
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      width: 230px;
+    }
+
+    h2 {
+      width: 200px;
+    }
+  }
 `;
+
 export const DeleteButton = styled.button`
   width: 5rem;
   font-size: 1rem;

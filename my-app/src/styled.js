@@ -43,6 +43,7 @@ export const ContainerCard = styled.div`
   display: flex;
   flex-direction: column;
   margin: 3rem 0;
+  overflow-wrap: break-word;
 
   @media screen and (max-width: 768px) and (min-width: 768px) {
     display: grid;
