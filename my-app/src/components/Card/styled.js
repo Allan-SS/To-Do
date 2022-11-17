@@ -24,6 +24,8 @@ export const Card = styled.div`
   }
 
   @media screen and (max-width: 768px) {
+    background-color: ${primaryColor};
+    color: ${seconderyColor};
     width: 350px;
   }
 `;
